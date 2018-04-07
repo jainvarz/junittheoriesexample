@@ -58,6 +58,7 @@ public class AppUnitTests {
 
         // Arrange
         Assume.assumeTrue(input.length==3);
+        Assume.assumeNotNull(input);
 
         // Act
         int resultActual = sut.addTwoNumbers(input[0], input[1]);
